@@ -1,0 +1,96 @@
+html,
+body {
+    height: 100%;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+nav img {
+    width: 180px;
+    height: 80px;
+    margin-top: -4%;
+    margin-bottom: -4%;
+}
+
+nav h1 {
+    text-align: center;
+    margin-left: -2%;
+    font-size: 220%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.drugi .container-fluid {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 700px;
+    margin-top: -5%;
+}
+
+.drugi p {
+    margin-top: 2%;
+    margin-bottom: 1%;
+    font-family: 'Indie Flower', cursive;
+    margin-bottom: 4%;
+}
+
+.sponzor img {
+    width: 80%;
+    height: 100%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1%;
+}
+
+.moto,
+.recenzije {
+    background-color: #f5f5f5;
+}
+
+.moto {
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 7%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+blockquote {
+    border-left: none
+}
+
+.quote-box {
+    overflow: hidden;
+    margin-top: 15px;
+    width: 400px;
+}
+
+.quotation-mark {
+    margin-top: -10px;
+    font-weight: bold;
+    font-size: 100px;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+.quote-text {
+    font-size: 19px;
+    margin-top: -65px;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: justify;
+}
+
+cite img {
+    height: 45px;
+    border-radius: 70%;
+    margin-right: 10px;
+    vertical-align: middle;
+    margin-bottom: 7%;
+}
+
+.korisnici {
+    font-size: 18px;
+}

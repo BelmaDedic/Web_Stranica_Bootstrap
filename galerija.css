@@ -1,0 +1,128 @@
+nav {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+nav img {
+    width: 180px;
+    height: 80px;
+    margin-top: -4%;
+    margin-bottom: -4%;
+}
+
+nav h1 {
+    text-align: center;
+    margin-left: -2%;
+    font-size: 220%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.prazan {
+    background-color: white;
+    width: 100%;
+    height: 90px;
+}
+
+.video {
+    height: 350px;
+    margin-top: 40px;
+}
+
+.video p {
+    font-family: 'Prompt', sans-serif;
+    margin-bottom: 10px;
+}
+
+.zvuk {
+    width: 100%;
+}
+
+audio {
+    margin-top: 90px;
+}
+
+.naslov-galerija {
+    font-family: 'Prompt', sans-serif;
+    margin-top: 4%;
+}
+
+.galerija {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.galerija1 img {
+    width: 90%;
+    height: 250px;
+    transition: all 0.5s ease-in-out;
+    background-color: black;
+    opacity: 0.9;
+    border-left: black 4px solid;
+    border-right: black 4px solid;
+    border-radius: 5px;
+}
+
+.galerija2 img {
+    width: 90%;
+    height: 250px;
+    transition: all 0.5s ease-in-out;
+    background-color: black;
+    opacity: 0.9;
+    border-left: black 4px solid;
+    border-right: black 4px solid;
+    border-radius: 5px;
+}
+
+.galerija3 img {
+    width: 90%;
+    height: 250px;
+    transition: all 0.5s ease-in-out;
+    background-color: black;
+    opacity: 0.9;
+    border-left: black 4px solid;
+    border-right: black 4px solid;
+    border-radius: 5px;
+}
+
+.galerija1 img:hover {
+    transform: scale(1.07);
+    opacity: 1;
+}
+
+.galerija2 img:hover {
+    transform: scale(1.07);
+    opacity: 1;
+}
+
+.galerija3 img:hover {
+    transform: scale(1.07);
+    opacity: 1;
+}
+
+@media only screen and (max-width: 800px) {
+    .galerija {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (min-width: 760px) and (max-width: 1200px) {
+    .galerija {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .galerija1,
+    .galerija2,
+    .galerija3 {
+        flex: 50%;
+    }
+    .galerija3 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .galerija3 img {
+        flex: 30%;
+    }
+}

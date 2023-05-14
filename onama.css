@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(0deg, #d8c17d, #cec9c9 30%) no-repeat;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+nav img {
+    width: 180px;
+    height: 80px;
+    margin-top: -4%;
+    margin-bottom: -4%;
+}
+
+nav h1 {
+    text-align: center;
+    margin-left: -2%;
+    font-size: 220%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.prazan {
+    background-color: white;
+    height: 90px;
+}
+
+.onama {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 4%;
+    text-align: justify;
+    margin-bottom: 4%;
+    line-height: 135%;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.zasto {
+    width: 100%;
+    height: 400%;
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+    padding-top: 2%;
+}
+
+.zasto .pitanje {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+.zasto ol {
+    margin-left: 5%;
+    margin-right: 15%;
+    margin-top: 3%;
+    line-height: 153%;
+    margin-bottom: 2%;
+    font-family: 'Mukta', sans-serif;
+}
+
+.zasto .evo {
+    margin-left: 7%;
+    margin-right: 5%;
+    margin-top: 3%;
+    font-family: 'Mukta', sans-serif;
+}
+
+.zasto .glavna {
+    padding-top: 2%;
+    line-height: 153%;
+    margin-bottom: 2%;
+    font-family: 'Mukta', sans-serif;
+    padding-bottom: 5%;
+}
+
+.proizvodi p {
+    margin-left: 3%;
+    margin-right: 15%;
+    padding-top: 2%;
+    font-family: 'Zilla Slab', serif;
+}
+
+.proizvodi ul {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 1%;
+    line-height: 153%;
+    margin-bottom: 4%;
+    font-family: 'Zilla Slab', serif;
+}
+
+h3 {
+    font-family: 'Indie Flower', cursive;
+}
+
+.gradovi {
+    margin-bottom: 5%;
+    margin-top: 3%;
+    font-family: 'EB Garamond', serif;
+    margin-left: 2%;
+}
+
+.gradovi h4 {
+    margin-bottom: 2%;
+    margin-top: 4%;
+    font-family: 'EB Garamond', serif;
+}
+
+.ion-ios-person,
+.ion-ios-star,
+.ion-social-facebook {
+    display: inline-block;
+    width: 30px;
+    margin-right: 10px;
+    margin-left: -8px;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
+.ion-ios-star {
+    color: orangered;
+}
+
+.ion-social-facebook {
+    color: blue;
+}
+
+.gradovi a {
+    color: darkred;
+    margin-left: -5px;
+    font-family: 'EB Garamond', serif;
+}

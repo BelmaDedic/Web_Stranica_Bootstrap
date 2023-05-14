@@ -1,0 +1,155 @@
+nav {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+nav img {
+    width: 180px;
+    height: 80px;
+    margin-top: -4%;
+    margin-bottom: -4%;
+}
+
+nav h1 {
+    text-align: center;
+    margin-left: -2%;
+    font-size: 220%;
+    font-family: "Montserrat", sans-serif;
+}
+
+.prazan {
+    background-color: white;
+    height: 90px;
+}
+
+.ukupno {
+    width: 100%;
+}
+
+.sadrzaj p {
+    margin-top: 2%;
+    margin-left: 1%;
+    font-family: "Rubik", sans-serif;
+}
+
+.podaci {
+    margin-left: 3%;
+    line-height: 30px;
+    width: 100%;
+    font-family: "Rubik", sans-serif;
+}
+
+.kontakt {
+    display: inline-block;
+    width: 30px;
+    font-size: 125%;
+    margin-right: 10px;
+    line-height: 130%;
+    vertical-align: middle;
+}
+
+.podaci a:link,
+.podaci a:visited {
+    padding: 1px 0;
+    text-decoration: none;
+    margin-right: 50px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.podaci a {
+    color: black;
+}
+
+.podaci a:hover,
+.podaci a:active {
+    color: darkred;
+}
+
+.ion-social-facebook,
+.ion-social-linkedin,
+.ion-social-whatsapp,
+.ion-social-instagram,
+.ion-ios-email {
+    transition: color 0.2s;
+}
+
+.ion-social-facebook:hover {
+    color: #3b5998;
+}
+
+.ion-social-linkedin:hover {
+    color: #007bb5;
+}
+
+.ion-ios-email:hover {
+    color: #f00f00;
+}
+
+.ion-social-instagram:hover {
+    color: #e95950;
+}
+
+.ion-social-whatsapp:hover {
+    color: #4dc247;
+}
+
+.ion-ios-telephone:hover {
+    color: #7f8ff9;
+}
+
+.ion-ios-location:hover {
+    color: #960a0a;
+}
+
+iframe {
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 80%;
+    width: 550px;
+    height: auto;
+}
+
+.lokacija p {
+    margin-top: 2%;
+    margin-left: 1%;
+    font-family: "Rubik", sans-serif;
+}
+
+.lokacija .ion-ios-location {
+    display: inline-block;
+    width: 10px;
+    margin-left: 20%;
+    line-height: 130%;
+    vertical-align: middle;
+}
+
+.prijava p {
+    margin-top: 2%;
+    margin-left: 1%;
+    margin-bottom: 2%;
+    font-family: "Rubik", sans-serif;
+}
+
+table {
+    width: 33%;
+    margin-left: 37%;
+}
+
+form {
+    width: 100%;
+    text-align: justify;
+    line-height: 25px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+textarea {
+    height: 100px;
+    width: 250px;
+    border: 1px solid #808080;
+}
+
+input[type="submit"] {
+    margin-left: -65px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
